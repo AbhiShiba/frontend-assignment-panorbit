@@ -1,0 +1,59 @@
+.image-userName {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.image-userName > img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.landing-page-container {
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(175,216,252,1) 0%, rgba(91,57,207,1) 90% );
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.landing-page-content {
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    height: 80%;
+    margin: 0 10px;
+}
+
+.landing-page-heading > h3{
+    text-align: center;
+}
+
+.landing-page-main {
+    background-color: white;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+
+    width: 40%;
+    height: 60%;
+    border-radius: 20px;
+}
+
+.landing-page-content::-webkit-scrollbar {
+    width: 8px;
+}
+
+.landing-page-content::-webkit-scrollbar-track {
+    background-color: rgb(229, 224, 224);
+    border-radius: 5px;
+}
+
+.landing-page-content::-webkit-scrollbar-thumb {
+    background: rgb(180, 178, 178);
+    border-radius: 5px;
+}
+
+.user-info-card {
+    margin: 0 20px;
+}

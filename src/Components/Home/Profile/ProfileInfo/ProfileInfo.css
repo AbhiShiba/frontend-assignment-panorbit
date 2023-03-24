@@ -1,0 +1,156 @@
+.profile-info-container {
+    height: 73vh;
+    margin: 0 40px;
+}
+
+.profile-info-1 {
+    width: 25vw;
+}
+
+.profile-info-2 {
+    width: 40vw;
+}
+
+.section-container {
+    margin: 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-container > hr {
+    margin: 20px;
+}
+
+.user-name-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user-name-image > h3 {
+    margin-top: 5px;
+}
+
+.user-name-image > img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 0;
+}
+
+.username-email {
+    display: flex;
+    justify-content: center;
+    margin: 0 10px;
+}
+
+.user-key > p {
+    margin: 10px 0;
+    font-size: 1.1rem;
+    color: rgba(150, 147, 147,0.8);
+}
+
+.user-value > p {
+    margin: 10px 0;
+    font-size: 1.1rem;
+}
+
+.user-separate > p {
+    margin: 10px 10px;
+    font-size: 1.1rem;
+}
+
+.user-key {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.user-separate {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-value {
+    display: flex;
+    flex-direction: column;
+}
+
+.company-details {
+    display: flex;
+    justify-content: center;
+}
+
+.company-key {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.company-key > p {
+    margin: 10px 0px;
+    font-size: 1.1rem;
+    color: rgba(150, 147, 147,0.8);
+}
+
+.company-separate {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.company-separate > p {
+    margin: 10px 10px;
+    font-size: 1.1rem;
+ }
+
+.company-value {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.company-value > p {
+    margin: 10px 0px;
+    font-size: 1rem;
+}
+
+.company-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.company-section > h4 {
+    margin: 5px;
+    font-size: large;
+    color: rgba(150, 147, 147,0.8);
+}
+
+.address-info {
+    display: flex;
+    margin-left: 50px;
+}
+
+.map-section > img {
+    height: 270px;
+    margin-left: 50px;
+    border-radius: 20px;
+}
+
+.location-section {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 30px;
+}
+
+.location-section > span {
+    margin-left: 5px;
+    font-size: 0.9rem;
+}
+
+.location-co {
+    color: rgba(150, 147, 147,0.8);
+}
